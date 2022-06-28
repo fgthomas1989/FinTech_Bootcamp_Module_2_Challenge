@@ -1,6 +1,6 @@
 # FinTech_Bootcamp_Module_2_Challenge
 
-![Columbia Engineering logo.](images\Columbia.jpeg)
+![Columbia Engineering logo.](images/Columbia.jpeg)
 ___
 
 The main purpose of this project is to add useful features to my loan qualifier application.
@@ -40,7 +40,7 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts.
 
-![Loan Qualifier Prompts](Images/loan_qalifier.png)
+![Loan Qualifier Prompts](images/loan_qalifier.png)
 ---
 
 ## Contributors
