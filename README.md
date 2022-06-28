@@ -47,7 +47,7 @@ Upon launching the loan qualifier application you will be greeted with the follo
 
 Brought to you by FGT Loans via the Columbia Engineering FinTech Bootcamp.
 
-Significant contributions made by subcontractors Marghub Mirza, TA Ashfaque, and TA Boomin Kwon.
+Significant contributions made by subcontractors Professor Marghub Mirza, TA Ashfaque, and TA Boomin Kwon.
 
 ---
 
