@@ -98,6 +98,8 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
     print(f"Found {len(bank_data_filtered)} qualifying loans")
+    # the following if statment meets the acceptance criteria that if no qualifying loans exist 
+    # then the app will notify the customer and exit.
     if not bank_data_filtered:
         sys.exit("Unfortunately, you do not have any qualifying loans. Goodbye.")    
 
@@ -111,6 +113,9 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
+    # the following meets acceptance criterion - asking the customer if they would like to save 
+    # their qualifying loans to qualifying_loans_csv. If they do not, then the app will exit whereas,
+    # if they do want to save their qualifying loans, then the app will save to qualifying_loans.csv
     save_qualifying_loans = questionary.confirm("Would you like to save your qualifying loans to qualifying_loans.csv?").ask()
     if not save_qualifying_loans:
         sys.exit("Thank you for using this application. Goodbye")
